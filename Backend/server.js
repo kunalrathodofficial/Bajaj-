@@ -66,9 +66,9 @@ app.post("/bfhl", upload.single("file_b64"), (req, res) => {
 
   res.status(200).json({
     is_success: true,
-    user_id: "john_doe_17091999", // Replace with your full name and DOB
-    email: "john@xyz.com", // Replace with your email
-    roll_number: "ABCD123", // Replace with your roll number
+    user_id: "kunal_123", 
+    email: "kunal@xyz.com", 
+    roll_number: "ABCD123", 
     ...processedData,
     file_valid: file ? true : false,
     file_mime_type: file ? file.mimetype : null,
