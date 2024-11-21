@@ -37,7 +37,7 @@ const App = () => {
     
     // Make the POST request
     try {
-      const result = await axios.post("http://localhost:5000/bfhl", JSON.parse(jsonInput), {
+      const result = await axios.post("https://bajaj-djy1.onrender.com/bfhl", JSON.parse(jsonInput), {
         headers: {
           "Content-Type": "application/json",
         },
